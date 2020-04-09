@@ -21,8 +21,10 @@ module.exports = Object.freeze({
         "302e020100300506032b6570042204205047bdeebeb4f2de436ad8b5c9824a472e68aeaa1a51af4f835f3960310c49b8",
 
     // Access with Mnemonic
-    mnemonicPhrase:
+    _mnemonicPhrase:
         "neither\ttheory\tnature\tsad\taim\tthree\tstaff\tinsane\torchard\tuse\tvote\tcherry\tmiss\tpalace\tpitch\televator\tfloat\tbuyer\tcitizen\tgossip\tscissors\ttobacco\tglue\tdigital\n",
+    mnemonicPhrase:
+        [ "neither", "theory", "nature", "sad", "aim", "three", "staff", "insane", "orchard", "use", "vote", "cherry", "miss", "palace", "pitch", "elevator", "float", "buyer", "citizen", "gossip", "scissors", "tobacco", "glue", "digital" ],
     mnemonicPhraseAccountId: "0.0.62519",
     mnemonicPhrasePublicKey:
         "302a300506032b657003210052a5df220ff49beeaf86704193afefa08cffb4212a6d0937e55e2e4f5bc4488e",

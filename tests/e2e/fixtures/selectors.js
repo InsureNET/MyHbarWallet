@@ -1,6 +1,6 @@
 module.exports = Object.freeze({
     accountInputSelector:
-        ".modal-enter-account-id > .modal-background > .modal input[type=text]",
+        ".modal-background > .modal input[placeholder='shard.realm.account or account']",
     publicKeySelector: "div.public > div.read-only-input > div",
     privateKeySelector: "div.private > div.read-only-input > div",
     privateKeyObscureSelector: "div.private > div.read-only-input.input > svg",
