@@ -1,4 +1,4 @@
-export default {
+module.exports = Object.freeze({
     accountInputSelector:
         ".modal-enter-account-id > .modal-background > .modal input[type=text]",
     publicKeySelector: "div.public > div.read-only-input > div",
@@ -16,4 +16,4 @@ export default {
         ".modal-export-generate-keystore > .modal-background > .modal button[type=submit]",
     modalExportKeystoreSubmitSelector:
         ".modal-export-download-keystore > .modal-background > .modal button[type=submit]"
-};
+});
